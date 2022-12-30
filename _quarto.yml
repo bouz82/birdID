@@ -4,11 +4,12 @@ project:
 
 website:
   title: "birdID"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - index.qmd
+      - ganzen.qmd
 
 format:
   html:
